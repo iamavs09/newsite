@@ -1,0 +1,70 @@
+.pricing h2{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 36px;
+}
+.priceItem{
+    height: 300px;
+    width: 300px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+    border-radius: 10px;
+    margin: 1em 1em;
+}
+.priceItem:hover{
+    box-shadow: 1px 7px 7px 0px #6326BB;
+    background-image: url("../assets/wave.png");
+    background-size: cover;
+    color: black;
+}
+.pricingCardlist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.priceItem button{
+    background-color: #45B5EE;
+    width: 130px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2em;
+    margin-left: 5em;
+}
+.priceItem h4{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 1em;
+}
+.priceItem p{
+    text-align: center;
+}
+.selector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6326BB;
+}
+#selector-bar{
+    margin: 0 1.5em;
+    padding: .1em;
+    background-color: #45B5EE;
+    width: 3em;
+    height: 1.5em;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+#selector-ball{
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 50%;
+    background-color: #fff;
+    transition-duration: 5000;
+}
+#selector-bar:hover{
+    opacity: .6;
+}
+

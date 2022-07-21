@@ -1,0 +1,62 @@
+.services h2{
+    text-align: center;
+    padding: 2em;
+    font-size: 36px;
+}
+.cardItem{
+    height: 300px;
+    width: 200px;
+    box-shadow: 3px 3px 3px 3px rgba(134, 130, 130, 0.1);
+}
+.cardItem:hover{
+    box-shadow: 3px 3px 3px 3px rgba(134, 130, 130, 0.2);
+}
+
+.cardlist{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.cardItem div{
+    height: 150px;
+    width: 150px;
+    
+    
+}
+.cardItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 2em;
+    
+}
+.cardItem .img{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+.cardItem .img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 173, 186);
+    border-radius: 100%;
+}
+.cardItem h3{
+    padding-top: 2em;
+}
+.cardItem p{
+    padding-top: 1em;
+}
+.cardItem .content-container{
+    width: 200px;
+    padding: 0em 1.5em;
+}
+.cardItem .content-container:hover{
+    background-image: url("../assets/wave2.png");
+    background-size: cover;
+    transition: ease-in-out .2s;
+} 
+
+

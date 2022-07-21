@@ -1,0 +1,49 @@
+.blog h2{
+    font-size: 36px;
+    margin-top: 1.2em;
+}
+.newsItem{
+    height: 450px;
+    width: 390px;
+    margin: 0 1em;
+    
+    box-shadow: 6px 2px 2px rgba(0,0,0,.3);
+    border-radius: 15px;
+    border: 1px solid rgb(121, 211, 232);
+}
+.newsList{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1em 1em;
+    margin: 1em 1em;
+    
+}
+.blog h2{
+    text-align: center;
+}
+.newsItem div{
+    height: 280px;
+    width: 390px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.newsItem button{
+    width: 90px;
+    height: 40px;
+    background-color: #45B5EE;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: .2em;
+    margin-left: 1em;
+}
+.newsItem p{
+    padding: 0.2em 1em;
+    font-size: 15px;
+}
+.newsItem h3{
+    padding-left: .8em;
+    font-size: 20px;
+}
